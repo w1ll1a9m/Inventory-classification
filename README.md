@@ -1,0 +1,6 @@
+# Inventory-classification
+Ml classification problem of inventory classification
+
+
+Inventory management is one of the main challenges for any manufacturing company where one of the goals resides in avoiding the occurrence of slow moving and obsolete inventory and its costs. We explore the problem of predicting whether a stored material is in risk of becoming slow moving-obsolete inside Dutch multi national AkzoNobel. In order to obtain reliable predictions, our approach explores different machine learning models using known probability calibration methods to obtain calibrated probabilities for the class labels. We complement said probabilities using an Inductive Conformal Predictor (ICP) to obtain confidence and credibility estimates for each new test instance. 
+Our results show a good performance of the Random Forest Classifier using the Platt's scaling method providing better probability estimates for the class labels. Our results show that the use of an Inductive conformal predictor provides useful label sets for the problem having good validity and efficiency guarantees. Both approaches complement each other providing useful information to the stakeholders regarding the current available data and the problem at hand.
